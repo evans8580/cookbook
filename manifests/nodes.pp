@@ -1,4 +1,5 @@
 node 'demo' {
+  include puppet
   nginx::website { 'adorable-animals':
     site_domain => 'adorable-animals.com',
   }
