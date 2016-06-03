@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /home/evans/cookbook/puppet
-git pull & /usr/local/bin/papply
+cd /home/evans/puppet
+git pull && /usr/local/bin/papply

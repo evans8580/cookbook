@@ -9,8 +9,8 @@ class puppet {
     mode => '0755',
   }
 
-  file { '/home/evans/.ssh/id_rsa':
-    source => 'puppet:///modules/puppet/evans.priv',
+  file { '/home/evans/.ssh/id_rsa.pub':
+    source => 'puppet:///modules/puppet/evans.pub',
     owner => 'evans',
     mode => '0600',
   }
